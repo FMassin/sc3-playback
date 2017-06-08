@@ -34,7 +34,7 @@ ssh -p 9999 sysop@localhost
 ## Running the playback
 First get a shell in your container by running:
 ```
-docker exec -it --user sysop seiscomp3-ch /bin/bash
+docker exec -it --user sysop sc3-ch /bin/bash
 ```
 
 Once you have a shell in your container and assuming your waveform file is
